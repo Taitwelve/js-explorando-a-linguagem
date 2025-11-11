@@ -10,3 +10,5 @@ console.log ("Ricardo" / "2");
 console.log("7" / "2");
 console.log(6,5);
 console.log(6.5);
+
+// Para usarmos casas decimais em operações, devemos usar o ponto ao invés da vírgula
