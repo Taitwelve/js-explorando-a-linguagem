@@ -13,6 +13,11 @@ const listaDeDestinos = new Array(
 );
 
 listaDeDestinos.push(`Curitiba`); // adicionando um item na lista
-
 console.log(`Destinos possíveis:`);
 console.log(listaDeDestinos);
+
+listaDeDestinos.splice(1,1); // removendo o item do índice 1 (São Paulo)
+console.log(`Destinos possíveis:`);
+console.log(listaDeDestinos);
+
+console.log(listaDeDestinos[1]); // acessando o item do índice 1 (Rio de Janeiro)
